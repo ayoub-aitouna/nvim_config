@@ -6,7 +6,11 @@ vim.opt.showcmd = true
 vim.opt.autowrite = true
 vim.opt.cursorline = true
 vim.opt.autoread = true
+-- Enable line numbering
+vim.opt.number = true
 
+-- Enable relative line numbering
+vim.opt.relativenumber = true
 --use space for tabs and whatnot
 vim.opt.autoindent = true
 vim.opt.expandtab = false
