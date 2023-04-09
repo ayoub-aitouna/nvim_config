@@ -18,6 +18,14 @@ return require('packer').startup(function(use)
   use 'nvim-tree/nvim-web-devicons'
   use 'nvim-lualine/lualine.nvim'
   use 'nvim-treesitter/nvim-treesitter'
+
+  -- copmletion
+  use 'hrsh7th/nvim-cmp'
+  use 'hrsh7th/cmp-nvim-lsp'
+  use 'L3MON4D3/LuaSnip'
+  use 'saadparwaiz1/cmp_luasnip'
+  use  "rafamadriz/friendly-snippets"
+
   use {
         'nvim-telescope/telescope.nvim',
         tag = '0.1.0',
@@ -34,3 +42,4 @@ return require('packer').startup(function(use)
     require('packer').sync()
   end
 end)
+
